@@ -15,4 +15,6 @@ document.addEventListener('DOMContentLoaded', function() {
 
         // Get the current value of the color input
         const colorValue = colorInput.value;
-        
+
+         // Output the value to the console
+         console.log('Current color value:', colorValue);
