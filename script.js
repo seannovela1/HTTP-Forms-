@@ -7,3 +7,8 @@ document.addEventListener('DOMContentLoaded', function() {
     if (savedColor) {
         console.log('Loaded color from localStorage:', savedColor);
     }
+
+    // Event listener for the form submission
+    form.addEventListener('submit', function(event) {
+        // Prevent the form from submitting
+        event.preventDefault();
