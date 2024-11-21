@@ -12,3 +12,7 @@ document.addEventListener('DOMContentLoaded', function() {
     form.addEventListener('submit', function(event) {
         // Prevent the form from submitting
         event.preventDefault();
+
+        // Get the current value of the color input
+        const colorValue = colorInput.value;
+        
