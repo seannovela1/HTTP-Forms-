@@ -18,3 +18,9 @@ document.addEventListener('DOMContentLoaded', function() {
 
          // Output the value to the console
          console.log('Current color value:', colorValue);
+
+          // Save the color value to localStorage
+        localStorage.setItem('savedColor', colorValue);
+    });
+});
+
